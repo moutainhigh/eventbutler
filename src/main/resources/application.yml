@@ -1,0 +1,18 @@
+spring:
+  application:
+      name: eventbutler
+  jmx:
+    enabled: false
+server:
+  port: 9101
+  tomcat:
+    max-http-post-size: -1
+# Log
+logging:
+  config: classpath:logback-spring.xml
+  level:
+    root: info
+    druid.sql.DataSource: info
+    druid.sql.Connection: info
+    druid.sql.Statement: debug
+    druid.sql.ResultSet: info
