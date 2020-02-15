@@ -90,12 +90,6 @@
             <artifactId>jna</artifactId>
             <version>3.0.9</version>
         </dependency>
-        <!-- Hutool工具包 -->
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-all</artifactId>
-            <version>4.0.5</version>
-        </dependency>
 
         <dependency>
             <groupId>org.redisson</groupId>
